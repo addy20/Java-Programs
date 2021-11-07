@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Queue.java&apos; to &apos;GFG.java&apos;&#x0D;&#x0A;- Original project: &apos;Stringg&apos;&#x0D;&#x0A;- Original element: &apos;Queue.java&apos;&#x0D;&#x0A;- Renamed element: &apos;GFG.java&apos;" description="Rename compilation unit &apos;Queue.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Queue.java" name="GFG.java" references="false" stamp="1625549796511" version="1.0"/>
+</session>

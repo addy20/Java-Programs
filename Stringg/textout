@@ -1,0 +1,11 @@
+Unicode is an international standard that aims to represent all known characters used
+by people in their various languages. Though the original ASCII character set is a subset,
+Unicode is huge. At the time Java was created, Unicode was a 16-bit character set, so it
+seemed natural to make Java char values be 16 bits in width, and for years a char could
+hold any Unicode character. However, over time, Unicode has grown, to the point that
+it now includes over a million “code points” or characters, more than the 65,525 that
+could be represented in 16 bits.3 Not all possible 16-bit values were defined as characters
+in UCS-2, the 16-bit version of Unicode originally used in Java. A few were reserved as
+“escape characters,” which allows for multicharacter-length mappings to less common
+characters. Fortunately, there is a go-between standard, called UTF-16 (16-bit Unicode
+Transformation Format). As the String class documentation puts it:

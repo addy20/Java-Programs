@@ -1,0 +1,21 @@
+package Temp;
+
+public class fib_r {
+
+	public static void main(String[] args) {
+		System.out.println("in time: "+System.nanoTime());
+		System.out.println(fib_rec(8));
+		System.out.println("out time: "+System.nanoTime());
+
+	}
+	
+	public static long fib_rec(int n) {
+		if(n==0||n==1) {
+			return n;
+		}
+		System.out.println("For n = "+n+" time = "+System.nanoTime());
+		return fib_rec(n-1)+fib_rec(n-2);
+		
+	}
+
+}
